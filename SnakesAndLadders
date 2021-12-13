@@ -1,0 +1,11 @@
+class SnakesAndLadders
+{
+    HashMap<Integer,Integer> jump = new HashMap<>();
+    public void snakesAndLadders(int start,int end){
+        jump.put(start,end);
+    }
+    public HashMap getSnakesAndLadders(){
+        return jump;
+        
+    }
+}
